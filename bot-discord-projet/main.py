@@ -53,6 +53,7 @@ async def guide_slash(interaction: discord.Interaction):
         "• `/roulette` : Tire un animal au hasard pour ta collection\n"
         "• `/collection` : Affiche ta collection d'animaux\n"
         "• `/fusion` : Fusionne 3 animaux identiques en un nouvel animal\n"
+        "• `/humanimal` : Envoie un animal au hasard\n
         "• `/wiki <nom>` : Envoie la page Wikipédia d'un animal\n"
         "• `/video` : Envoie une vidéo incroyable\n"
         "• `/quiz` : Propose une question de quiz jusqu'à l'erreur\n"
@@ -67,8 +68,29 @@ async def wiki_slash(interaction: discord.Interaction, nom: str):
     """Envoie la page Wikipédia d'un animal"""
     nom = nom.replace(" ", "_")
     await interaction.response.send_message(f"https://fr.wikipedia.org/wiki/{nom}")
-    
-# Commande slash : /wow
+
+
+# Commande slash : /humanimal
+@bot.tree.command(name = "humanimal", description = "Envoie un animal au hasard")
+async def humanimal_slash(interaction: discord.Interaction):
+    """Envoie un animal au hasard"""
+    animal = your_animal()
+    embed = discord.Embed(
+            title=f"Tu a obtenu {animal['animal']} !",
+            description=f"{animal['description']}",
+            color=discord.Color.blurple()
+    )
+    embed.set_image(url=animal["url"]),
+    if animal['animal'] == "Nina Tucker":
+        await interaction.response.send_message(embed=embed)
+        await asyncio.sleep(5)
+        await interaction.user.send("Vous avez été maudit par Nina Tucker")
+        await interaction.user.ban(reason="Vous avez été maudit par Nina Tucker")
+    else:
+        await interaction.response.send_message(embed=embed)
+
+
+# Commande slash : /video
 @bot.tree.command(name = "video", description = "Envoie une vidéo incroyable")
 async def wow_slash(interaction: discord.Interaction):
     """Envoie une vidéo incroyable"""
@@ -80,6 +102,7 @@ async def wow_slash(interaction: discord.Interaction):
 async def quiz_slash(interaction: discord.Interaction):
     """Lance un quiz : le bot pose des questions jusqu'à ce que l'utilisateur se trompe"""
     await quiz.start_quiz(interaction)
+
 
 @bot.event
 async def setup_hook():
