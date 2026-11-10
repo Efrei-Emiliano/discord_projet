@@ -1,0 +1,22 @@
+pics = [
+    {"animal": "un écureil", "url": "https://cdn.thegreatprojects.com/thegreatprojects/images/1/4/f/3/d/14f3ddb45078455bd2fadc3f430f9d94.jpg?width=364&height=364&format=jpg"},
+     {"animal": "un chat", "url": "https://plus.unsplash.com/premium_photo-1667030474693-6d0632f97029?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"},
+     {"animal": "un ara chloroptère", "url": "https://img.magnific.com/photos-gratuite/vue-cote-aras-ecarlate-vue-pres-tete-ara-ecarlate_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"},
+     {"animal": "un tigre", "url": "https://a-z-animals.com/media/tiger_laying_hero_background.jpg"},
+     {"animal": "un panda", "url": "https://images.unsplash.com/photo-1703248187251-c897f32fe4ec?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"},
+     {"animal": "un Koala", "url": "https://cdn.sanity.io/images/c4jrmm6w/production/2e6b05a9570d91dc9487af56166d7e4b7ae6b40e-1420x1090.png?q=80&h=700&auto=format"},
+     {"animal": "un paon", "url": "https://static.vecteezy.com/system/resources/thumbnails/073/839/650/small/vibrant-peacock-stands-gracefully-among-lush-green-foliage-showcasing-its-stunning-plumage-this-wild-animal-captivates-with-its-colorful-feathers-and-majestic-presence-in-nature-photo.jpeg"},
+     {"animal": "une vache", "url": "https://cdn.animalsaustralia.org/wp-content/uploads/2021/11/23231435/1000-cute-animal-pictures-helen.jpg"},
+     {"animal": "un zebre", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmx_8Xu-5bFTJZ0fIKI3VBDIGvAa8lkGoCTp7bJMrWzQ&s=10"},
+     {"animal": "un impala", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmx_8Xu-5bFTJZ0fIKI3VBDIGvAa8lkGoCTp7bJMrWzQ&s=10"},
+     {"animal": "un tatoo", "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nine-banded_Armadillo.jpg?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original"},
+     {"animal": "une pieuvre", "url": "https://c.files.bbci.co.uk/11F73/production/_120878537_4cfca0d7-2b27-474f-93b7-4c31269c5cdf.jpg"},
+     {"animal": "un hérisson", "url": "https://cdn.pixabay.com/photo/2016/02/22/10/06/hedgehog-1215140_640.jpg"},
+     {"animal": "un lémurien", "url": "https://i.natgeofe.com/k/baf4215e-517c-49b4-84f4-8e63cd5e5913/ww-funny-animal-faces-lemur_4x3.jpg"},
+     {"animal": "une loutre", "url": "https://img.magnific.com/photos-gratuite/loutre-asiatique-petites-griffes-dans-habitat-naturel-loutre-au-zoo-pendant-heure-du-dejeuner-scene-sauvage-animal-captif-animaux-etonnants-ludiques-aonyx-cinereus_475641-2050.jpg?semt=ais_hybrid&w=740&q=80"},
+     {"animal": "une hermine", "url": "https://www.zoologiste.com/images/main/hermine.jpg"},
+     {"animal": "un raton laveur", "url": "https://as2.ftcdn.net/jpg/00/99/13/07/1000_F_99130742_OsZsx8ku46AP6NPtguwOTr8bSqgfHM5W.jpg"},
+     {"animal": "un ours brun", "url": "https://static.vecteezy.com/ti/photos-gratuite/t2/36328200-marron-ours-sur-branche-dans-l-automne-foret-animal-dans-la-nature-habitat-faune-scene-photo.jpg"},
+     {"animal": "un panda roux", "url": "https://img.magnific.com/photos-gratuite/magnifique-panda-rouge-voie-disparition-arbre-vert_475641-1326.jpg?semt=ais_hybrid&w=740&q=80"},
+     {"animal": "un ratel", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpV_SqcRMdyGN2LLPE0QxVOjcIevUbieH09F1ajP_XGYbhr7ZjjenkAbk&s=10"}
+     ]
