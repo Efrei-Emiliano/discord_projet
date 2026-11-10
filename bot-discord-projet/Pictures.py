@@ -25,6 +25,7 @@ pics = [
      {"animal": "un lion", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrd_ffjezulIg_H8Wm2ebL5OAZUincYjIO2smexmEMng&s", "description": "Un lion est un grand félin de la famille des Felidae. Il est connu pour sa crinière distinctive et son rôle de prédateur au sommet de la chaîne alimentaire."},
      {"animal": "un éléphant", "url": "https://i.pinimg.com/736x/d0/e4/4f/d0e44f42e7b413b5ec220d7a342d77ef.jpg", "description": "Un éléphant est un grand mammifère de la famille des Elephantidae. Il est connu pour sa taille imposante, sa trompe et sa mémoire exceptionnelle."},
      {"animal": "une baleine", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ALjUEaiYvMxFM0P6sh4NIaEClUWMAY0ioZHzUuhbQFfIClV8TtwPJ8zF&s=10", "description": "Une baleine est un mammifère marin de la famille des Cetacea. Elle est connue pour sa taille gigantesque et son chant mélodieux."}
+]
 def your_animal()->dict:
     """Renvoie un animal au hasard"""
     randan = random.choice(pics)
